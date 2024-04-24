@@ -11,7 +11,7 @@ config = {
 
 try:
     db = mysql.connector.connect(**config)
-    print("\n Database user root connected to MySQL on localhost with,"+
+    print("\n Database user root connected to MySQL on localhost with "+
            "database movies.")
     format(config["user"]),(config["host"]),(config["database"])
             
